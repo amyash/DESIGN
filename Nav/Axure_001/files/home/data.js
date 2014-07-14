@@ -1,0 +1,250 @@
+﻿$axure.loadCurrentPage({
+  "url":"home.html",
+  "generationDate":new Date(1396978605794.09),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8398e2fec8c7453a8878cb5a693ab299",
+    "type":"Axure:Page",
+    "name":"Home",
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0f84fa21d3ca480d93fceecda5079752",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":-1,
+              "y":38},
+            "size":{
+              "width":320,
+              "height":1040}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1f3b7712f9174cf9af5a880a6e6033e6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":-1,
+                  "y":38},
+                "size":{
+                  "width":320,
+                  "height":1040}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.jpg"}},
+{
+          "id":"3d30ded3d81c4a909fe5cce396508f31",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ee17547827a1433a96a75c231f4bac51",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u2.png"}},
+{
+          "id":"7d7d4e44986542d18c9dd86fdeb5d62e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":0},
+            "size":{
+              "width":40,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"Toggle (Image) slide down 500 ms push/pull widgets below linear 500ms",
+                      "objectsToFades":[{
+                          "objectPath":["0bed9a2463804d8685a2aa73d639bc73"],
+                          "fadeInfo":{
+                            "fadeType":"toggle",
+                            "options":{
+                              "easing":"slideDown",
+                              "duration":500,
+                              "showType":"compress",
+                              "vertical":true,
+                              "compressEasing":"linear",
+                              "compressDuration":500}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"6985f6af467348969a71034631689a07",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'AmericanTypewriter', 'American Typewriter'",
+            "horizontalAlignment":"center",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFCC3366,
+              "opacity":1},
+            "location":{
+              "x":80,
+              "y":34},
+            "size":{
+              "width":240,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"eb3dda4b46694b0ab0cdf398f2276213",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'AmericanTypewriter', 'American Typewriter'",
+                "horizontalAlignment":"center",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCC3366,
+                  "opacity":1},
+                "location":{
+                  "x":80,
+                  "y":34},
+                "size":{
+                  "width":240,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0bed9a2463804d8685a2aa73d639bc73",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":false,
+          "style":{
+            "location":{
+              "x":0,
+              "y":47},
+            "size":{
+              "width":320,
+              "height":267},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"55980ffd816746208c99dc98a1be0a5b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":47},
+                "size":{
+                  "width":320,
+                  "height":267},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"linkWindow",
+                      "description":"Open Page 1 in New Window/Tab",
+                      "target":{
+                        "targetType":"page",
+                        "url":"page_1.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/home/u7.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0f84fa21d3ca480d93fceecda5079752":{
+      "scriptId":"u0"},
+    "1f3b7712f9174cf9af5a880a6e6033e6":{
+      "scriptId":"u1"},
+    "3d30ded3d81c4a909fe5cce396508f31":{
+      "scriptId":"u2"},
+    "ee17547827a1433a96a75c231f4bac51":{
+      "scriptId":"u3"},
+    "7d7d4e44986542d18c9dd86fdeb5d62e":{
+      "scriptId":"u4"},
+    "6985f6af467348969a71034631689a07":{
+      "scriptId":"u5"},
+    "eb3dda4b46694b0ab0cdf398f2276213":{
+      "scriptId":"u6"},
+    "0bed9a2463804d8685a2aa73d639bc73":{
+      "scriptId":"u7"},
+    "55980ffd816746208c99dc98a1be0a5b":{
+      "scriptId":"u8"}}});
